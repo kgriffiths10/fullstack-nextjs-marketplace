@@ -1,3 +1,6 @@
+// This is the main content of the page. In your structure, it's mapped to the root / route. 
+// If you had additional folders within app/, they would represent other routes in your app.
+
 import Image from "next/image";
 
 export default function Home() {

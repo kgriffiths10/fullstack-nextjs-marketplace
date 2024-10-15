@@ -1,0 +1,86 @@
+[
+    {
+        "saved_listing_id" : "4dd17cb2-93ec-447d-95f6-fc47a0c8cade",
+        "user_id" : "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "listing_id" : "09601273-03bc-4dee-890c-d56713671bd0",
+        "created_at" : "2021-06-01T00:00:00.000Z"
+    },
+    {
+        "saved_listing_id" : "4dd17cb2-93ec-447d-95f6-fc47a0c8cadf",
+        "user_id" : "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "listing_id" : "09601273-03bc-4dee-890c-d56713671bd1",
+        "created_at" : "2021-06-01T00:00:00.000Z"
+    },
+    {
+        "saved_listing_id" : "4dd17cb2-93ec-447d-95f6-fc47a0c8cadg",
+        "user_id" : "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "listing_id" : "09601273-03bc-4dee-890c-d56713671bd2",
+        "created_at" : "2021-06-01T00:00:00.000Z"
+    },
+    {
+        "saved_listing_id" : "4dd17cb2-93ec-447d-95f6-fc47a0c8cadh",
+        "user_id" : "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "listing_id" : "09601273-03bc-4dee-890c-d56713671bd3",
+        "created_at" : "2021-06-01T00:00:00.000Z"
+    },
+    {
+        "saved_listing_id" : "4dd17cb2-93ec-447d-95f6-fc47a0c8cadi",
+        "user_id" : "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "listing_id" : "09601273-03bc-4dee-890c-d56713671bd4",
+        "created_at" : "2021-06-01T00:00:00.000Z"
+    },
+    {
+        "saved_listing_id" : "4dd17cb2-93ec-447d-95f6-fc47a0c8cadj",
+        "user_id" : "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "listing_id" : "09601273-03bc-4dee-890c-d56713671bd5",
+        "created_at" : "2021-06-01T00:00:00.000Z"
+    },
+    {
+        "saved_listing_id" : "4dd17cb2-93ec-447d-95f6-fc47a0c8cadk",
+        "user_id" : "88fd2562-e45e-4a02-a50f-66cf9b5b1652",
+        "listing_id" : "09601273-03bc-4dee-890c-d56713671bd6",
+        "created_at" : "2021-06-01T00:00:00.000Z"
+    },
+    {
+        "saved_listing_id" : "4dd17cb2-93ec-447d-95f6-fc47a0c8cadl",
+        "user_id" : "88fd2562-e45e-4a02-a50f-66cf9b5b1652",
+        "listing_id" : "09601273-03bc-4dee-890c-d56713671bd7",
+        "created_at" : "2021-06-01T00:00:00.000Z"
+    },
+    {
+        "saved_listing_id" : "4dd17cb2-93ec-447d-95f6-fc47a0c8cadm",
+        "user_id" : "88fd2562-e45e-4a02-a50f-66cf9b5b1652",
+        "listing_id" : "09601273-03bc-4dee-890c-d56713671bd8",
+        "created_at" : "2021-06-01T00:00:00.000Z"
+    },
+    {
+        "saved_listing_id" : "4dd17cb2-93ec-447d-95f6-fc47a0c8cadn",
+        "user_id" : "88fd2562-e45e-4a02-a50f-66cf9b5b1652",
+        "listing_id" : "09601273-03bc-4dee-890c-d56713671bd9",
+        "created_at" : "2021-06-01T00:00:00.000Z"
+    },
+    {
+        "saved_listing_id" : "4dd17cb2-93ec-447d-95f6-fc47a0c8cado",
+        "user_id" : "88fd2562-e45e-4a02-a50f-66cf9b5b1652",
+        "listing_id" : "09601273-03bc-4dee-890c-d56713671bda",
+        "created_at" : "2021-06-01T00:00:00.000Z"
+    },
+    {
+        "saved_listing_id" : "4dd17cb2-93ec-447d-95f6-fc47a0c8cadp",
+        "user_id" : "88fd2562-e45e-4a02-a50f-66cf9b5b1652",
+        "listing_id" : "09601273-03bc-4dee-890c-d56713671bd7",
+        "created_at" : "2021-06-01T00:00:00.000Z"
+    },
+    {
+        "saved_listing_id" : "4dd17cb2-93ec-447d-95f6-fc47a0c8cadq",
+        "user_id" : "88fd2562-e45e-4a02-a50f-66cf9b5b1652",
+        "listing_id" : "09601273-03bc-4dee-890c-d56713671bdb",
+        "created_at" : "2021-06-01T00:00:00.000Z"
+    },
+    {
+        "saved_listing_id" : "4dd17cb2-93ec-447d-95f6-fc47a0c8cadr",
+        "user_id" : "88fd2562-e45e-4a02-a50f-66cf9b5b1653",
+        "listing_id" : "09601273-03bc-4dee-890c-d56713671bdc",
+        "created_at" : "2021-06-01T00:00:00.000Z"
+    }
+]

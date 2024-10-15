@@ -1,0 +1,22 @@
+[
+    {
+        "transaction_id": "09601273-03bc-4dee-890c-d56713671bdc",
+        "buyer_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1654",
+        "seller_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "listing_id": "09601273-03bc-4dee-890c-d56713671bdc",
+        "price": 1000.00,
+        "transaction_date": "2021-06-01T00:00:00.000Z",
+        "transaction_type": "purchase",
+        "status": "completed"
+    },
+    {
+        "transaction_id": "72a551f8-c90f-45a6-842c-dcae80c67313",
+        "buyer_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1654",
+        "seller_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "listing_id": "09601273-03bc-4dee-890c-d56713671bdb",
+        "price": 1200.00,
+        "transaction_date": "2021-06-01T00:00:00.000Z",
+        "transaction_type": "purchase",
+        "status": "completed"
+    }
+]

@@ -1,0 +1,83 @@
+[
+    {
+        "message_id": "f88b8b13-0e04-479a-9bd0-9658608057c8",
+        "sender_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "receiver_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1652",
+        "listing_id": "09601273-03bc-4dee-890c-d56713671bd0", 
+        "message_text": "Hi, I'm interested in your Macbook Pro 2019. Is it still available?",
+        "created_at": "2021-06-01T00:00:00.000Z",
+        "is_read": false 
+    },
+    {
+        "message_id": "f88b8b13-0e04-479a-9bd0-9658608057c9",
+        "sender_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1652",
+        "receiver_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "listing_id": "09601273-03bc-4dee-890c-d56713671bd0",
+        "message_text": "Yes, it's still available. Would you like to meet up to check it out?",
+        "created_at": "2021-06-01T00:00:00.000Z",
+        "is_read": false
+    },
+    {
+        "message_id": "f88b8b13-0e04-479a-9bd0-9658608057c0",
+        "sender_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "receiver_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1652",
+        "listing_id": "09601273-03bc-4dee-890c-d56713671bd0",
+        "message_text": "Sure, I'd love to meet up. When are you available?",
+        "created_at": "2021-06-01T00:00:00.000Z",
+        "is_read": false
+    },
+    {
+        "message_id": "f88b8b13-0e04-479a-9bd0-9658608057c1",
+        "sender_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1652",
+        "receiver_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "listing_id": "09601273-03bc-4dee-890c-d56713671bd0",
+        "message_text": "I'm free on weekends. How about Saturday afternoon?",
+        "created_at": "2021-06-01T00:00:00.000Z",
+        "is_read": false
+    },
+    {
+        "message_id": "f88b8b13-0e04-479a-9bd0-9658608057c2",
+        "sender_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "receiver_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1652",
+        "listing_id": "09601273-03bc-4dee-890c-d56713671bd0",
+        "message_text": "Saturday afternoon works for me. Let's meet at the Starbucks on Main St.",
+        "created_at": "2021-06-01T00:00:00.000Z",
+        "is_read": false
+    },
+    {
+        "message_id": "f88b8b13-0e04-479a-9bd0-9658608057c3",
+        "sender_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1652",
+        "receiver_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "listing_id": "09601273-03bc-4dee-890c-d56713671bd0",
+        "message_text": "Great! I'll see you there. Looking forward to it!",
+        "created_at": "2021-06-01T00:00:00.000Z",
+        "is_read": false
+    },
+    {
+        "message_id": "f88b8b13-0e04-479a-9bd0-9658608057c4",
+        "sender_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "receiver_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1652",
+        "listing_id": "09601273-03bc-4dee-890c-d56713671bd0",
+        "message_text": "Looking forward to meeting you too! See you on Saturday!",
+        "created_at": "2021-06-01T00:00:00.000Z",
+        "is_read": false
+    },
+    {
+        "message_id": "f88b8b13-0e04-479a-9bd0-9658608057c5",
+        "sender_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1652",
+        "receiver_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "listing_id": "09601273-03bc-4dee-890c-d56713671bd0",
+        "message_text": "See you then! Have a great day!",
+        "created_at": "2021-06-01T00:00:00.000Z",
+        "is_read": false
+    },
+    {
+        "message_id": "f88b8b13-0e04-479a-9bd0-9658608057c6",
+        "sender_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "receiver_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1652",
+        "listing_id": "09601273-03bc-4dee-890c-d56713671bd0",
+        "message_text": "You too! See you on Saturday!",
+        "created_at": "2021-06-01T00:00:00.000Z",
+        "is_read": false
+    }
+]

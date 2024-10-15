@@ -1,0 +1,46 @@
+[
+    {
+        "category_id" : "5acd5304-914f-48ae-85fc-fff36ccb9ac9",
+        "category_name" : "Electronics"
+    },
+    {
+        "category_id" : "5acd5304-914f-48ae-85fc-fff36ccb9aca",
+        "category_name" : "Clothing"
+    },
+    {
+        "category_id" : "5acd5304-914f-48ae-85fc-fff36ccb9acb",
+        "category_name" : "Books"
+    },
+    {
+        "category_id" : "5acd5304-914f-48ae-85fc-fff36ccb9acc",
+        "category_name" : "Furniture"
+    },
+    {
+        "category_id" : "5acd5304-914f-48ae-85fc-fff36ccb9acd",
+        "category_name" : "Ridesharing"
+    },
+    {
+        "category_id" : "5acd5304-914f-48ae-85fc-fff36ccb9ace",
+        "category_name" : "Sports"
+    },
+    {
+        "category_id" : "5acd5304-914f-48ae-85fc-fff36ccb9acf",
+        "category_name" : "Automobiles"
+    },
+    {
+        "category_id" : "5acd5304-914f-48ae-85fc-fff36ccb9ad0",
+        "category_name" : "Home Appliances"
+    },
+    {
+        "category_id" : "5acd5304-914f-48ae-85fc-fff36ccb9ad1",
+        "category_name" : "Stationary"
+    },
+    {
+        "category_id" : "5acd5304-914f-48ae-85fc-fff36ccb9ad2",
+        "category_name" : "Housing"
+    },
+    {
+        "category_id" : "5acd5304-914f-48ae-85fc-fff36ccb9ad3",
+        "category_name" : "Healthcare"
+    }
+]

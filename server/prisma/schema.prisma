@@ -1,0 +1,132 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Schools {
+  school_id    String @id @default(uuid())
+  name         String @db.VarChar(255)
+  email_domain String @db.VarChar(255)
+
+  users Users[]
+}
+
+model Users {
+  user_id         String        @id @default(uuid())
+  first_name      String      @db.VarChar(255)
+  last_name       String      @db.VarChar(255)
+  personal_email   String      @db.VarChar(255)
+  student_email    String      @db.VarChar(255)
+  phone_number     String
+  school_id        String
+  password_hash    String      @db.Text
+  profile_picture   String?     @db.Text
+  created_at      DateTime    @default(now())
+  is_verified     Boolean
+  last_login      DateTime
+  status          String      @db.VarChar(255) // Adjust check constraints as needed
+  is_alum        Boolean
+
+  school            Schools @relation(fields: [school_id], references: [school_id])
+  listings          Listings[]
+  savedListings     SavedListings[]
+  sentMessages      Messages[] @relation("SentMessages")
+  receivedMessages   Messages[] @relation("ReceivedMessages")
+  notifications     Notifications[]
+  transactionsBuyer  Transactions[] @relation("BuyerTransactions")
+  transactionsSeller Transactions[] @relation("SellerTransactions")
+}
+
+model Categories {
+  category_id String @id @default(uuid())
+  category_name        String @db.VarChar(255)
+
+  listings Listings[] @relation("CategoryListings")
+}
+
+model Listings {
+  listing_id    String       @id @default(uuid())
+  user_id       String
+  title         String     @db.VarChar(255)
+  price         Decimal    @db.Decimal(8, 2)
+  description   String     @db.VarChar(255)
+  status        String     @db.VarChar(255)
+  category_id   String
+  created_at    DateTime   @default(now())
+  is_trade      Boolean
+  image_paths   Json
+  listing_views Int
+  condition     String?    @db.VarChar(255)
+  location      String     @db.VarChar(255)
+
+  user     Users @relation(fields: [user_id], references: [user_id])
+  category Categories @relation("CategoryListings", fields: [category_id], references: [category_id])
+  savedListings SavedListings[]
+  messages    Messages[]
+  transactions Transactions[]
+}
+
+model SavedListings {
+  saved_listing_id String @id @default(uuid())
+  user_id         String
+  listing_id      String
+  created_at      DateTime @default(now())
+
+  user    Users @relation(fields: [user_id], references: [user_id])
+  listing Listings @relation(fields: [listing_id], references: [listing_id])
+}
+
+model Messages {
+  message_id   String   @id @default(uuid())
+  sender_id    String
+  receiver_id  String
+  listing_id   String
+  message_text String  @db.Text
+  created_at   DateTime @default(now())
+  is_read      Boolean
+
+  sender   Users @relation("SentMessages", fields: [sender_id], references: [user_id])
+  receiver Users @relation("ReceivedMessages", fields: [receiver_id], references: [user_id])
+  listing  Listings @relation(fields: [listing_id], references: [listing_id])
+}
+
+model Notifications {
+  notification_id String @id @default(uuid())
+  user_id        String
+  message        String  @db.Text
+  is_read        Boolean
+  created_at     DateTime @default(now())
+  type           String  @db.VarChar(255) // Adjust check constraints as needed
+
+  user Users @relation(fields: [user_id], references: [user_id])
+}
+
+model Transactions {
+  transaction_id    String @id @default(uuid())
+  buyer_id          String
+  seller_id         String
+  listing_id        String
+  price             Decimal  @db.Decimal(8, 2)
+  transaction_type  String   @db.VarChar(255) // Adjust check constraints as needed
+  transaction_date  DateTime @default(now())
+  status            String   @db.VarChar(255) // Adjust check constraints as needed
+
+  buyer   Users @relation("BuyerTransactions", fields: [buyer_id], references: [user_id])
+  seller  Users @relation("SellerTransactions", fields: [seller_id], references: [user_id])
+  listing Listings @relation(fields: [listing_id], references: [listing_id])
+}
+
+
+
+
+

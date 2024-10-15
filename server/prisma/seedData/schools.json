@@ -1,0 +1,53 @@
+[
+    {
+      "school_id": "e0d44f5b-9c58-487f-89de-2d35a30325ea",
+      "name": "McGill University",
+      "email_domain": "mcgill.ca"
+    },
+    {
+      "school_id": "b2f76534-8c4c-42b5-9bb3-e8bcb0ad566b",
+      "name": "Concordia University",
+      "email_domain": "concordia.ca"
+    },
+    {
+      "school_id": "7b12f846-e9cf-4931-a09b-97d03c7dcbf8",
+      "name": "Université de Montréal",
+      "email_domain": "umontreal.ca"
+    },
+    {
+      "school_id": "be3a6d57-0ad5-4907-906a-dbb6e8e42122",
+      "name": "Université Laval",
+      "email_domain": "ulaval.ca"
+    },
+    {
+      "school_id": "8475820e-5160-4b39-87f9-927d5c874de7",
+      "name": "Université de Sherbrooke",
+      "email_domain": "usherbrooke.ca"
+    },
+    {
+      "school_id": "78b173d7-2b58-4ba0-a6ee-d9f10be994ab",
+      "name": "Carleton University",
+      "email_domain": "carleton.ca"
+    },
+    {
+      "school_id": "481bbbe2-7f67-44f7-99d2-8e3e03d6e55a",
+      "name": "University of Toronto",
+      "email_domain": "utoronto.ca"
+    },
+    {
+      "school_id": "91b481b4-8dcd-4d84-9a57-e2b1c6d8b320",
+      "name": "Queen's University",
+      "email_domain": "queensu.ca"
+    },
+    {
+      "school_id": "49c1f751-8cb2-4389-9e6c-0b876c8bb007",
+      "name": "University of British Columbia",
+      "email_domain": "ubc.ca"
+    },
+    {
+      "school_id": "302ccab6-d61e-4207-b746-3f765d88f5c8",
+      "name": "University of Alberta",
+      "email_domain": "ualberta.ca"
+    }
+  ]
+  

@@ -1,0 +1,82 @@
+[
+    {
+        "notification_id": "bb19d8b5-3fb1-4365-b8c0-9eb8ff6b9f9b",
+        "user_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "message": "You have a new message from Ethan",
+        "created_at": "2021-06-01T00:00:00.000Z",
+        "is_read": false,
+        "type": "message"
+    },
+    {
+        "notification_id": "bb19d8b5-3fb1-4365-b8c0-9eb8ff6b9f9c",
+        "user_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "message": "You have a new message from Sophia",
+        "created_at": "2021-06-01T00:00:00.000Z",
+        "is_read": false,
+        "type": "message"
+    },
+    {
+        "notification_id": "bb19d8b5-3fb1-4365-b8c0-9eb8ff6b9f9d",
+        "user_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "message": "You have a new message from Isabella",
+        "created_at": "2021-06-01T00:00:00.000Z",
+        "is_read": false,
+        "type": "message"
+    },
+    {
+        "notification_id": "bb19d8b5-3fb1-4365-b8c0-9eb8ff6b9f9e",
+        "user_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "message": "Your listing 'Macbook Pro 2019' has been favorited by Ethan",
+        "created_at": "2021-06-01T00:00:00.000Z",
+        "is_read": false,
+        "type": "favorite"
+    },
+    {
+        "notification_id": "bb19d8b5-3fb1-4365-b8c0-9eb8ff6b9f9f",
+        "user_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "message": "Your listing 'iPhone 12 Pro Max' has been favorited by Sophia",
+        "created_at": "2021-06-01T00:00:00.000Z",
+        "is_read": false,
+        "type": "favorite"
+    },
+    {
+        "notification_id": "bb19d8b5-3fb1-4365-b8c0-9eb8ff6b9f9g",
+        "user_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1651",
+        "message": "Your listing 'Nike Air Max 270' has been favorited by Isabella",
+        "created_at": "2021-06-01T00:00:00.000Z",
+        "is_read": false,
+        "type": "favorite"
+    },
+    {
+        "notification_id": "bb19d8b5-3fb1-4365-b8c0-9eb8ff6b9f9h",
+        "user_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1652",
+        "message": "Your listing 'Harry Potter and the Philosopher's Stone' has been favorited by Ethan",
+        "created_at": "2021-06-01T00:00:00.000Z",
+        "is_read": false,
+        "type": "favorite"
+    },
+    {
+        "notification_id": "bb19d8b5-3fb1-4365-b8c0-9eb8ff6b9f9i",
+        "user_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1652",
+        "message": "Your listing 'Macbook Pro 2019' has been viewed by Sophia",
+        "created_at": "2021-06-01T00:00:00.000Z",
+        "is_read": false,
+        "type": "view"
+    },
+    {
+        "notification_id": "bb19d8b5-3fb1-4365-b8c0-9eb8ff6b9f9j",
+        "user_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1652",
+        "message": "Your listing 'iPhone 12 Pro Max' has been viewed by Isabella",
+        "created_at": "2021-06-01T00:00:00.000Z",
+        "is_read": false,
+        "type": "view"
+    },
+    {
+        "notification_id": "bb19d8b5-3fb1-4365-b8c0-9eb8ff6b9f9k",
+        "user_id": "88fd2562-e45e-4a02-a50f-66cf9b5b1653",
+        "message": "Your listing 'Nike Air Max 270' has been viewed by Ethan",
+        "created_at": "2021-06-01T00:00:00.000Z",
+        "is_read": false,
+        "type": "view"
+    }
+]

@@ -98,5 +98,7 @@ main()
 
     *** If adding a new .json seed file, update in orderedFileNames array (order matters becaue of dependencies such as foreign keys),
     add to schema.prisma and rerun npx prisma db seed ***)
+
+    *** If modifying the data in the seed files, you can rerun the seed script to update the data in the database using npm run seed***
     
   */

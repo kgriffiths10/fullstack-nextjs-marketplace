@@ -19,6 +19,18 @@ body,
   @apply text-gray-900;
 }
 
+@media (min-width: 768px) {
+  .custom-grid-rows {
+    grid-template-rows: repeat(8, 10vh);
+  }
+}
+
+@media (min-width: 1280px) {
+  .custom-grid-rows {
+    grid-template-rows: repeat(8, 7.5vh);
+  }
+}
+
 
 /* Learning Notes 
 

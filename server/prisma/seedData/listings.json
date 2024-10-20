@@ -5,12 +5,12 @@
         "title" : "Macbook Pro 2019",
         "description" : "Selling my Macbook Pro 2019 model. It's in great condition and has been used for only 6 months.",
         "price" : 1200.00,
-        "status" : "active",
+        "status" : "sold",
         "category_id" : "5acd5304-914f-48ae-85fc-fff36ccb9ac9",
         "created_at" : "2021-06-01T00:00:00.000Z",
         "is_trade" : false,
         "image_paths" : "macbook.jpg",
-        "listing_views" : 0,
+        "listing_views" : 25,
         "location" : "New York, NY",
         "condition" : "Used"
     },
@@ -25,7 +25,7 @@
         "created_at" : "2021-06-01T00:00:00.000Z",
         "is_trade" : false,
         "image_paths" : "iphone.jpg",
-        "listing_views" : 0,
+        "listing_views" : 110,
         "location" : "Los Angeles, CA",
         "condition" : "Used"
     },
@@ -40,7 +40,7 @@
         "created_at" : "2021-06-01T00:00:00.000Z",
         "is_trade" : false,
         "image_paths" : "nike.jpg",
-        "listing_views" : 0,
+        "listing_views" : 230,
         "location" : "Chicago, IL",
         "condition" : "Used"
     },
@@ -55,7 +55,7 @@
         "created_at" : "2021-06-01T00:00:00.000Z",
         "is_trade" : false,
         "image_paths" : "harrypotter.jpg",
-        "listing_views" : 0,
+        "listing_views" : 40,
         "location" : "Toronto, ON",
         "condition" : "Used"
     },
@@ -70,7 +70,7 @@
         "created_at" : "2021-06-01T00:00:00.000Z",
         "is_trade" : false,
         "image_paths" : "bedframe.jpg",
-        "listing_views" : 0,
+        "listing_views" : 4,
         "location" : "Vancouver, BC",
         "condition" : "Used"
     },
@@ -85,7 +85,7 @@
         "created_at" : "2021-06-01T00:00:00.000Z",
         "is_trade" : false,
         "image_paths" : "rideshare.jpg",
-        "listing_views" : 0,
+        "listing_views" : 1208,
         "location" : "Toronto, ON",
         "condition" : "Used"
     },
@@ -100,7 +100,7 @@
         "created_at" : "2021-06-01T00:00:00.000Z",
         "is_trade" : false,
         "image_paths" : "tennisracket.jpg",
-        "listing_views" : 0,
+        "listing_views" : 455,
         "location" : "Montreal, QC",
         "condition" : "Used"
     },
@@ -115,7 +115,7 @@
         "created_at" : "2021-06-01T00:00:00.000Z",
         "is_trade" : false,
         "image_paths" : "toyotacorolla.jpg",
-        "listing_views" : 0,
+        "listing_views" : 1235,
         "location" : "Edmonton, AB",
         "condition" : "Used"
     },
@@ -130,7 +130,7 @@
         "created_at" : "2021-06-01T00:00:00.000Z",
         "is_trade" : false,
         "image_paths" : "washeranddryer.jpg",
-        "listing_views" : 0,
+        "listing_views" : 22,
         "location" : "Calgary, AB",
         "condition" : "Used"
     },
@@ -145,7 +145,7 @@
         "created_at" : "2021-06-01T00:00:00.000Z",
         "is_trade" : false,
         "image_paths" : "pilotg2.jpg",
-        "listing_views" : 0,
+        "listing_views" : 10,
         "location" : "Ottawa, ON",
         "condition" : "Used"
     },
@@ -160,7 +160,7 @@
         "created_at" : "2021-06-01T00:00:00.000Z",
         "is_trade" : false,
         "image_paths" : "apartment.jpg",
-        "listing_views" : 0,
+        "listing_views" : 250,
         "location" : "Montreal, QC",
         "condition" : "Used"
     },
@@ -170,12 +170,12 @@
         "title" : "Macbook Pro 2019",
         "description" : "Selling my Macbook Pro 2019 model. It's in great condition and has been used for only 6 months.",
         "price" : 1200.00,
-        "status" : "sold",
+        "status" : "active",
         "category_id" : "5acd5304-914f-48ae-85fc-fff36ccb9ac9",
         "created_at" : "2021-06-01T00:00:00.000Z",
         "is_trade" : false,
         "image_paths" : "macbook.jpg",
-        "listing_views" : 0,
+        "listing_views" : 450,
         "location" : "New York, NY",
         "condition" : "Used"
     },
@@ -185,12 +185,12 @@
         "title" : "iPhone 12 Pro Max",
         "description" : "Selling my iPhone 12 Pro Max. It's in great condition and has been used for only 3 months.",
         "price" : 1000.00,
-        "status" : "sold",
+        "status" : "active",
         "category_id" : "5acd5304-914f-48ae-85fc-fff36ccb9ac9",
         "created_at" : "2021-06-01T00:00:00.000Z",
         "is_trade" : false,
         "image_paths" : "iphone.jpg",
-        "listing_views" : 0,
+        "listing_views" : 285,
         "location" : "Los Angeles, CA",
         "condition" : "Used"
     }

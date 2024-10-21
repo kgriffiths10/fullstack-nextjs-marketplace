@@ -62,12 +62,3 @@ Ensure you have the following installed:
  ```
  Open http://localhost:3000 with your browser to see the result.
 
-## Learn More
-
-To learn more about the technologies used in this project, check out the following resources:
-- [Next.js Documentation](https://nextjs.org/docs)
-- [React Documentation](https://reactjs.org/docs/getting-started.html)
-- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
-- [TailwindCSS Documentation](https://tailwindcss.com/docs)
-- [Express Documentation](https://expressjs.com/)
-- [Prisma Documentation](https://www.prisma.io/docs/)

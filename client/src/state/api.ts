@@ -47,19 +47,85 @@ export interface DashboardMetrics {
     popularCategories: PopularCategories[];
 }
 
+export interface Listings {
+    marketplaceListings: marketplaceListings[];
+    userListings: userListings[];
+    categoryNames : categoryNames[];
+}
+
+export interface marketplaceListings {
+    listing_id: string;
+    title: string;
+    price: number;
+    description: string;
+    created_at: string;
+    category_name: string;
+    seller_name: string;  // user_name to represent the user's full name
+    image_paths: string[];
+    location: string;
+    status: string;
+}
+
+export interface userListings {
+    listing_id: string;
+    title: string;
+    price: number;
+    description: string;
+    created_at: string;
+    category_name: string;
+    image_paths: string[];
+    location: string;
+    status: string;
+}
+
+export interface categoryNames {
+    category_id: string;
+    category_name: string;
+}
+
+export interface NewListing {
+    title: string;
+    description: string;
+    price: number;
+    condition: string;
+    location: string;
+    category_id: string;
+    image_paths: string[];
+}
+
+
 export const api = createApi({
     baseQuery: fetchBaseQuery({ baseUrl: process.env.NEXT_PUBLIC_API_BASE_URL }),
     reducerPath: "api",
-    tagTypes: ["DashboardMetrics"],
+    tagTypes: ["DashboardMetrics", "Listings"],
     endpoints: (build) => ({
         getDashbaordMetrics: build.query<DashboardMetrics, void>({
             query: () => "/dashboard",
             providesTags: ["DashboardMetrics"],
         }),
+        getListings: build.query<Listings, string | void>({
+            query: (search) => ({
+                url: "/listings",
+                params: search ? { search } : {},
+            }),
+            providesTags: ["Listings"],
+        }),
+        createListing: build.mutation<Listings, NewListing>({
+            query: (newListing) => ({
+                url: "/listings",
+                method: "POST",
+                body: newListing,
+            }),
+            invalidatesTags: ["Listings"],
+        }),
     }),
 });
 
-export const { useGetDashbaordMetricsQuery, } = api;
+export const { 
+    useGetDashbaordMetricsQuery, 
+    useGetListingsQuery, 
+    useCreateListingMutation 
+} = api;
 
 /* Learning Notes
 

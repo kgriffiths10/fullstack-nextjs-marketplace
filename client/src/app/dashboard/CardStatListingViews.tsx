@@ -5,7 +5,7 @@ import { useGetDashbaordMetricsQuery } from '@/state/api';
 const CardStatListingViews = () => {
     const { data: dashboardMetrics, isLoading } = useGetDashbaordMetricsQuery();
     return (
-        <div className='row-span-6 md:row-span-1 md:col-span-2 xl:row-span-2 xl:col-span-2 p-8 rounded-xl bg-white'>
+        <div className='row-span-6 md:row-span-2 md:col-span-4 xl:row-span-2 xl:col-span-2 p-8 rounded-xl bg-white '>
             {isLoading ? (
                 <div className='m-5'>Loading...</div>
             ) : (

@@ -78,7 +78,7 @@ export const getDashboardMetrics = async (
             
         }));
 
-        // Finding the top 5 most popular listing categories
+        // Finding the top 4 most popular listing categories
         const popularCategories = await prisma.listings.groupBy({
             by: ['category_id'],
             _count: {
@@ -89,7 +89,7 @@ export const getDashboardMetrics = async (
                     listing_id: 'desc' // Order by count in descending order
                 }
             },
-            take: 5 // Limit the results to the top 5 categories
+            take: 4 
         });
 
         // Fetching category names for the popular categories

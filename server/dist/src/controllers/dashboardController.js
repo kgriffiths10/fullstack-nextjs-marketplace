@@ -74,7 +74,7 @@ const getDashboardMetrics = (req, res) => __awaiter(void 0, void 0, void 0, func
             category_name: listing.category.category_name, // Get the category name
             thumbnail: listing.image_paths
         }));
-        // Finding the top 5 most popular listing categories
+        // Finding the top 4 most popular listing categories
         const popularCategories = yield prisma.listings.groupBy({
             by: ['category_id'],
             _count: {
@@ -85,7 +85,7 @@ const getDashboardMetrics = (req, res) => __awaiter(void 0, void 0, void 0, func
                     listing_id: 'desc' // Order by count in descending order
                 }
             },
-            take: 5 // Limit the results to the top 5 categories
+            take: 4
         });
         // Fetching category names for the popular categories
         const categoriesWithCounts = yield Promise.all(popularCategories.map((category) => __awaiter(void 0, void 0, void 0, function* () {

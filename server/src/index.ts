@@ -7,6 +7,8 @@ import morgan from "morgan";
 
 /* Route Imports */
 import dashboardRoutes from "./routes/dashboardRoutes";
+import listingRoutes from "./routes/listingRoutes";
+
 
 /* Configurations */
 dotenv.config();
@@ -21,6 +23,7 @@ app.use(cors());
 
 /* Routes */
 app.use("/dashboard", dashboardRoutes); // http://localhost:8000/dashboard
+app.use("/listings", listingRoutes); // http://localhost:8000/listings
 
 
 /* Server */

@@ -6,7 +6,7 @@ const CardRecentListings = () => {
     const { data: dashboardMetrics, isLoading } = useGetDashbaordMetricsQuery();
     
     return (
-        <div className='row-span-12 col-span-2 md:row-span-6 md:col-span-5 xl:row-span-6 xl:col-span-5 p-8 rounded-xl bg-white  '>
+        <div className='row-span-12 col-span-2 md:row-span-6 md:col-span-8 xl:row-span-6 xl:col-span-5 p-8 rounded-xl bg-white  '>
             {isLoading ? (
                 <div className='m-5'>Loading...</div>
             ) : (
@@ -25,7 +25,6 @@ const CardRecentListings = () => {
                                     </div>
                                     <p className='mb-4 px-3 py-1 bg-blue-100 text-xs text-blue-500 w-max rounded-lg'>{listing.category_name}</p>
                                     <p className='mb-4 text-gray-500'>{listing.description}</p>
-                                    <p className='text-gray-500'>{listing.created_at}</p>
                                 </div>
                             </div>
                         ))}
